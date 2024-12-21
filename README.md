@@ -3,7 +3,7 @@
 
 Sculture Class Booking app.
 
-Deployment: https://smcallan.github.io/sculpture-booking-app/
-
+Deployment: 
+http://www.sculptandsoul.studio/
 
 
