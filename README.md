@@ -4,5 +4,5 @@
 Sculture Class Booking app.
 
 Deployment: 
-(https://smcallan.github.io/sculpture-booking-app/)
+https://smcallan.github.io/sculpture-booking-app/
 
