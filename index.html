@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sculpt & Soul Studio</title> <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Sculpt & Soul Studio</h1>
+        <p>Unleash your inner artist!</p>
+    </header>
+
+    <main>
+        <section id="booking-section">
+            <h2>Book Your Class</h2>
+            <form id="booking-form">
+                <div>
+                    <label for="name">Full Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="class-date">Choose a Date:</label>
+                    <input type="date" id="class-date" name="class-date" required>
+                </div>
+                <div>
+                    <label for="class-type">Class Type:</label>
+                    <select id="class-type" name="class-type">
+                        <option value="beginner">Beginner - Clay Basics</option>
+                        <option value="intermediate">Intermediate - Figure Sculpting</option>
+                        <option value="advanced">Advanced - Mixed Media</option>
+                    </select>
+                </div>
+                <button type="submit">Book Now</button>
+            </form>
+            <div id="confirmation-message" style="display: none;">
+                <h3>Thank you for your booking!</h3>
+                <p>You will receive a confirmation email shortly.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Sculpt & Soul Studio</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
